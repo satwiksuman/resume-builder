@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./ind.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Resume</title>
+  </head>
+  <body>
+    <!-- Resume Form -->
+    <div id="form">
+      <!-- Header Section -->
+      <header>
+        <nav id="head1">
+          <h2>Apna Resume</h2>
+        </nav>
+      </header>
+
+      <h2 id="con1">Enter Your Details-</h2>
+      <div id="con2">
+        <div id="con21">
+          <h2 class="con211">Personal Information</h2>
+
+          <h2 class="con212">Name</h2>
+          <input
+            id="root1"
+            class="con213"
+            type="text"
+            placeholder="Enter Your Name"
+          />
+
+          <h2 class="con212">Phone</h2>
+          <input
+            id="root2"
+            class="con213"
+            type="text"
+            default="+91 "
+            placeholder="Enter Your Number"
+          />
+
+          <h2 class="con212">Address</h2>
+          <textarea
+            id="root3"
+            class="con213 add"
+            type="text"
+            placeholder="Enter Your Address"
+          ></textarea>
+
+          <h2 class="con212">LeetCode</h2>
+          <input
+            id="root4"
+            class="con213"
+            type="text"
+            placeholder="Enter your LeetCode link"
+          />
+
+          <h2 class="con212">GitHub</h2>
+          <input
+            id="root5"
+            class="con213"
+            type="text"
+            placeholder="Enter your GitHub link"
+          />
+
+          <h2 class="con212">LinkdeIn</h2>
+          <input
+            id="root6"
+            class="con213"
+            type="text"
+            placeholder="Enter Your LinkdeIn link"
+          />
+        </div>
+
+        <div id="con22">
+          <h2 class="con211">Professional Information</h2>
+
+          <h2 class="con212">College</h2>
+          <input
+            id="root7"
+            class="con213"
+            type="text"
+            placeholder="Enter your College Name"
+          />
+
+          <h2 class="con212">Skills</h2>
+          <textarea
+            id="root8"
+            class="con213 add"
+            type="text"
+            placeholder="Enter your Skills"
+          ></textarea>
+
+          <h2 class="con212">Work Experience</h2>
+          <textarea
+            id="root9"
+            class="con213 add"
+            type="text"
+            placeholder="Enter your Work Experience"
+          ></textarea>
+
+          <h2 class="con212">Academic Qualification</h2>
+          <textarea
+            id="root10"
+            class="con213 add"
+            type="text"
+            placeholder="Enter your Academic Qualification"
+          ></textarea>
+        </div>
+      </div>
+
+      <button onClick="generateResume()" class="btn">Generate Resume</button>
+    </div>
+
+    <!-- Resume Template -->
+    <div id="resume">
+      <div id="resumePrint">
+        <header>
+          <h1 id="head2">Prasun Jha</h1>
+          <div id="head3">
+            <a id="doc01" class="head31" href="">LeetCode</a>
+            <a id="doc02" class="head31" href="">GitHub</a>
+            <a id="doc03" class="head31" href="">LinkedIn</a>
+          </div>
+        </header>
+
+        <div class="head4">
+          <h4 class="head5">Phone Number:</h4>
+          <p id="doc1"></p>
+        </div>
+
+        <div class="head4">
+          <h4 class="head5">College Name:</h4>
+          <p id="doc2"></p>
+        </div>
+
+        <div class="head4">
+          <h4>Address:</h4>
+          <p id="doc3"></p>
+        </div>
+
+        <div class="head4">
+          <h4>Skills:</h4>
+          <p id="doc4"></p>
+        </div>
+
+        <div class="head4">
+          <h4>Academic Qualification:</h4>
+          <p id="doc5"></p>
+        </div>
+
+        <div class="head4">
+          <h4>Work Experience:</h4>
+          <p id="doc6"></p>
+        </div>
+      </div>
+      <button onClick="printResume()" class="btn">Print Resume</button>
+
+      <!-- </header> -->
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

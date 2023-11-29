@@ -1,0 +1,148 @@
+/* ind.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Section */
+header {
+    /* background-color: #333; */
+    /* color: white; */
+    text-align: center;
+    padding: 15px;
+}
+
+/* Navigation */
+#head1 {
+    background-color: #3A414D;
+    padding: 10px;
+}
+
+#head1 h2 {
+    margin: 0;
+    color: white;
+}
+
+/* Resume Form Container */
+#form {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#con1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#con2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#con21,
+#con22 {
+    width: 48%;
+}
+
+.con211 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.con212 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.con213 {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add {
+    height: 80px;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Resume Template */
+/* Resume Template */
+#resume {
+    display: none;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    /* Align the entire content to the left */
+}
+
+#head2 {
+    margin: 0;
+    text-align: center;
+    /* Center align h2 */
+}
+
+#head3 {
+    margin-top: 10px;
+    text-align: center;
+    /* Center align h3 */
+}
+
+.head31 {
+    color: white;
+    background-color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.head4 {
+    margin-top: 20px;
+    text-align: left;
+    /* Left align text inside .head4 */
+}
+
+.head5 {
+    margin: 5px 0;
+    text-align: left;
+    /* Left align text inside .head5 */
+}
+
+/* Media Query */
+@media screen and (max-width: 768px) {
+    #con2 {
+        flex-direction: column;
+    }
+
+    #con21,
+    #con22 {
+        width: 100%;
+    }
+}
